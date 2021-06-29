@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>ElixirNews - by Eze Andreatta</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Breaking News Area -->
+                    <div class="col-12 col-md-6">
+                        <div class="breaking-news-area">
+                            <h5 class="breaking-news-title">DE ÚLTIMO MOMENTO</h5>
+                            <div id="breakingNewsTicker" class="ticker">
+                                <ul>
+                                    <li><a href="https://www.clarin.com/rss/lo-ultimo/">Lo Último: CLARÍN</a></li>
+                                    <li><a href="https://www.infobae.com/feeds/rss/">Lo Último: INFOBAE</a></li>
+                                    <li><a href="http://contenidos.lanacion.com.ar/herramientas/rss/origen=2">Lo Último: LA NACIÓN</a></li>
+                                    <li><a href="https://www.perfil.com/feed">Lo Último: PERFIL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Stock News Area -->
+                    <div class="col-12 col-md-6">
+                        <div class="stock-news-area">
+                            <div id="stockNewsTicker" class="ticker">
+                                <ul>
+                                    <li>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>eur/usd</span>
+                                                <span>1.1862</span>
+                                            </div>
+                                            <div class="stock-index minus-index">
+                                                <h4>0.18</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>BTC/usd</span>
+                                                <span>32.676.29</span>
+                                            </div>
+                                            <div class="stock-index plus-index">
+                                                <h4>8.60</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>$blue/usd</span>
+                                                <span>173.99</span>
+                                            </div>
+                                            <div class="stock-index minus-index">
+                                                <h4>13.60</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>eur/usd</span>
+                                                <span>1.1862</span>
+                                            </div>
+                                            <div class="stock-index minus-index">
+                                                <h4>0.18</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>BTC/usd</span>
+                                                <span>32.676.29</span>
+                                            </div>
+                                            <div class="stock-index plus-index">
+                                                <h4>8.60</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>$blue/usd</span>
+                                                <span>173.99</span>
+                                            </div>
+                                            <div class="stock-index minus-index">
+                                                <h4>13.60</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>eur/usd</span>
+                                                <span>1.1862</span>
+                                            </div>
+                                            <div class="stock-index minus-index">
+                                                <h4>3.95</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>BTC/usd</span>
+                                                <span>32.676.29</span>
+                                            </div>
+                                            <div class="stock-index plus-index">
+                                                <h4>4.78</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>$blue/usd</span>
+                                                <span>173.99</span>
+                                            </div>
+                                            <div class="stock-index minus-index">
+                                                <h4>11.37</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Middle Header Area -->
+        <div class="middle-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Logo Area -->
+                    <div class="col-12 col-md-4">
+                        <div class="logo-area">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <!-- Header Advert Area -->
+                    <div class="col-12 col-md-8">
+                        <div class="header-advert-area">
+                            <a href="#"><img src="img/bg-img/top-advert.png" alt="header-add"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Header Area -->
+        <div class="bottom-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <div class="main-menu">
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gazetteMenu" aria-controls="gazetteMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
+                                <div class="collapse navbar-collapse" id="gazetteMenu">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SECCIONES</a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="index.html">Hoy</a>
+                                                <a class="dropdown-item" href="catagory.html">Tendencias</a>
+                                                <a class="dropdown-item" href="single-post.html">Opinión</a>
+                                                <a class="dropdown-item" href="about-us.html">Quiénes Somos</a>
+                                                <a class="dropdown-item" href="contact.html">Contacto</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Politica</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Sociedad</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Turismo</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Salud</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Entretenimiento</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Deportes</a>
+                                        </li>
+                                    </ul>
+                                    <!-- Search Form -->
+                                    <div class="header-search-form mr-auto">
+                                        <form action="#">
+                                            <input type="search" placeholder="Ingrese la palabra clave a buscar..." id="search" name="search">
+                                            <input class="d-none" type="submit" value="submit">
+                                        </form>
+                                    </div>
+                                    <!-- Search btn -->
+                                    <div id="searchbtn">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Breadcumb Area Start -->
+    <div class="breadcumb-area section_padding_50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breacumb-content d-flex align-items-center justify-content-between">
+                        <h3 class="font-pt mb-0">Contacto</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcumb Area End -->
+
+    <section class="gazette-contact-area section_padding_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="gazette-heading">
+                        <h4 class="font-bold">Dirección</h4>
+                    </div>
+                    <!-- Contact Form -->
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="contact-name" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="contact-email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn contact-btn">ENVIAR<i class="fa fa-angle-right ml-2"></i></button>
+                    </form>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="gazette-heading">
+                        <h4 class="font-bold">Dirección</h4>
+                    </div>
+                    <div class="contact-address-info mb-50">
+                        <p>Dirección: Franklin D. Roosevelt 2159 <br> Ciudad / Estado: Laprida 3610 <br> Teléfono: 11-6632-2345</p>
+                    </div>
+                    <div class="gazette-heading">
+                        <h4 class="font-bold">Teléfono</h4>
+                    </div>
+                    <div class="contact-address-info">
+                        <p>Teléfono #1: 11-26632-2346 <br>Teléfono #2: 11-26632-2347 <br>Teléfono #3: 11-26632-2348 <br>Teléfono #4: 11-26632-2349</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="googleMap"></div>
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area bg-img background-overlay" style="background-image: url(img/bg-img/4.jpg);">
+        <!-- Top Footer Area -->
+        <div class="top-footer-area section_padding_100_70">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Regiones</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Noroeste</a></li>
+                                <li><a href="#">Nordeste</a></li>
+                                <li><a href="#">Pampeana</a></li>
+                                <li><a href="#">Amba</a></li>
+                                <li><a href="#">Cuyo</a></li>
+                                <li><a href="#">Patagonia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Locales</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Laprida</a></li>
+                                <li><a href="#">Olavarría</a></li>
+                                <li><a href="#">Azul</a></li>
+                                <li><a href="#">Tandil</a></li>
+                                <li><a href="#">Pcia. de BsAs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Politicas</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Desarrollo Social</a></li>
+                                <li><a href="#">Educación</a></li>
+                                <li><a href="#">Economía</a></li>
+                                <li><a href="#">Salud</a></li>
+                                <li><a href="#">Justicia y Seguridad</a></li>
+                                <li><a href="#">Infraestructura</a></li>
+                                <li><a href="#">Medio Ambiente</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Deportes</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Futbol</a></li>
+                                <li><a href="#">Golf</a></li>
+                                <li><a href="#">Tenis</a></li>
+                                <li><a href="#">Motorsport</a></li>
+                                <li><a href="#">Basketball</a></li>
+                                <li><a href="#">Polo</a></li>
+                                <li><a href="#">Boxeo</a></li>
+                                <li><a href="#">Voley</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Ayuda</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Pagar para leer?</a></li>
+                                <li><a href="#">Beneficios, suscripción</a></li>
+                                <li><a href="#">Leer gratis?</a></li>
+                                <li><a href="#">Donar/Aportes</a></li>
+                                <li><a href="#">Contactar al Director?</a></li>
+                                <li><a href="#">Anunciar/Publicidad</a></li>
+                                <li><a href="#">Denuncias</a></li>
+                                <li><a href="#">Fe de erratas</a></li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">+ Más</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Tecnología</a></li>
+                                <li><a href="#">Diseño</a></li>
+                                <li><a href="#">Arquitectura</a></li>
+                                <li><a href="#">Arte</a></li>
+                                <li><a href="#">Autos</a></li>
+                                <li><a href="#">Lujos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-12">
+                        <div class="copywrite-text">
+                            <p><!-- Link back to Behance can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Design is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.behance.net/hernanFidalgo" target="_blank">Hernán Fidalgo</a>
+<!-- Link back to Behance can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- Google Maps js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk9KNSL1jTv4MY9Pza6w8DJkpI_nHyCnk"></script>
+    <script src="js/map-active.js"></script>
+
+</body>
+
+</html>
